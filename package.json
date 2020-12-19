@@ -1,0 +1,51 @@
+{
+    "name": "@mjamsek/prog-utils",
+    "version": "0.0.1",
+    "description": "Utility library providing type definitions.",
+    "keywords": [
+        "mjamsek",
+        "optional",
+        "entity list"
+    ],
+    "main": "./dist/prog-utils.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "scripts": {
+        "lint": "tslint -p . --fix",
+        "compile": "tsc",
+        "build": "webpack",
+        "prepublishOnly": "npm run build"
+    },
+    "author": {
+        "name": "Miha Jamšek",
+        "url": "https://github.com/Jamsek-m",
+        "email": "miha_jamsek@windowslive.com"
+    },
+    "maintainers": [
+        {
+            "name": "Miha Jamšek",
+            "url": "https://github.com/Jamsek-m",
+            "email": "miha_jamsek@windowslive.com"
+        }
+    ],
+    "repository": {
+        "url": "https://github.com/Jamsek-m/ts-prog-utils",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/Jamsek-m/ts-prog-utils/issues"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "~5.11.0",
+        "terser-webpack-plugin": "~5.0.3",
+        "clean-webpack-plugin": "~3.0.0",
+        "ts-loader": "~8.0.12",
+        "webpack-cli": "~4.2.0",
+        "typescript": "~3.9.4",
+        "tslint": "~6.1.3"
+    }
+}
