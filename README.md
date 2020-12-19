@@ -14,13 +14,13 @@ Example:
 ```typescript
 import { EntityList } from "@mjamsek/prog-utils";
 
+const objectArray: MyObject[] = [/* ... */];
+
 /*
 * Provide list size separately.
 * Useful to store information usually retrieved from
 * X-Total-Count header, to represent size of larger collection.
 */
-const objectArray: MyObject[] = [/* ... */];
-
 const list: EntityList<MyObject> = EntityList.of(objectList, 23);
 
 /*
