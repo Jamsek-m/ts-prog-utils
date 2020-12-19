@@ -1,5 +1,5 @@
 # Prog Utils
-![npm (scoped)](https://img.shields.io/npm/v/@mjamsek/prog-utils)
+[![npm (scoped)](https://img.shields.io/npm/v/@mjamsek/prog-utils)](https://www.npmjs.com/package/@mjamsek/prog-utils)
 [![GitHub license](https://img.shields.io/github/license/Jamsek-m/ts-prog-utils)](https://github.com/Jamsek-m/ts-prog-utils/blob/master/LICENSE)
 > Utility library providing type definitions.
 
